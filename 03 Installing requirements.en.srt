@@ -1,0 +1,277 @@
+1
+00:00:00,001 --> 00:00:02,000
+- [Instructor] Let's take a look at the tools we'll need
+
+2
+00:00:02,000 --> 00:00:05,000
+to get started installing a React project
+
+3
+00:00:05,000 --> 00:00:06,007
+with Create React App.
+
+4
+00:00:06,007 --> 00:00:07,007
+Now before you get started,
+
+5
+00:00:07,007 --> 00:00:09,008
+you'll need to have some tools pre-installed
+
+6
+00:00:09,008 --> 00:00:12,008
+on your computer to work on this project.
+
+7
+00:00:12,008 --> 00:00:15,005
+First, you'll need a copy of Git installed.
+
+8
+00:00:15,005 --> 00:00:17,006
+A Git is a version control system
+
+9
+00:00:17,006 --> 00:00:21,002
+that lets you keep track of and collaborate on projects.
+
+10
+00:00:21,002 --> 00:00:23,004
+If you're on a PC, when you install Git,
+
+11
+00:00:23,004 --> 00:00:26,006
+you have the option of installing an app called Git Bash,
+
+12
+00:00:26,006 --> 00:00:30,004
+which lets you use Linux commands on a PC.
+
+13
+00:00:30,004 --> 00:00:32,004
+You'll also need a copy of Node.js,
+
+14
+00:00:32,004 --> 00:00:34,007
+which is used to manage the project.
+
+
+15
+00:00:34,007 --> 00:00:38,001
+A couple of optional tools will also make your life easier.
+
+16
+00:00:38,001 --> 00:00:39,006
+First, I highly recommend
+
+17
+00:00:39,006 --> 00:00:42,002
+that you install the React Developer Tools.
+
+18
+00:00:42,002 --> 00:00:45,000
+They allow you to inspect what's going on with React
+
+19
+00:00:45,000 --> 00:00:46,006
+in real time.
+
+20
+00:00:46,006 --> 00:00:49,000
+I'll be using Visual Studio Code for this project,
+
+21
+00:00:49,000 --> 00:00:51,006
+so there's a couple of extensions that will really help.
+
+22
+00:00:51,006 --> 00:00:53,007
+The first is a series of React Snippets
+
+23
+00:00:53,007 --> 00:00:56,006
+that will make your life easier when working with React.
+
+24
+00:00:56,006 --> 00:01:00,001
+The second is a series of snippets for JSX,
+
+25
+00:01:00,001 --> 00:01:03,001
+the language that React projects are based on.
+
+26
+00:01:03,001 --> 00:01:04,005
+You can create a React app
+
+27
+00:01:04,005 --> 00:01:07,003
+with a tool called Create React App.
+
+
+28
+00:01:07,003 --> 00:01:09,007
+It's a much simpler way to create projects,
+
+29
+00:01:09,007 --> 00:01:11,005
+but it does require that you have npm,
+
+30
+00:01:11,005 --> 00:01:15,002
+which comes with Node.js 5.2 or higher.
+
+31
+00:01:15,002 --> 00:01:16,004
+If you have a previous version
+
+32
+00:01:16,004 --> 00:01:18,003
+of the Create React App project,
+
+33
+00:01:18,003 --> 00:01:21,004
+you can uninstall it with the command seen here.
+
+34
+00:01:21,004 --> 00:01:24,000
+Otherwise, you can use your terminal application
+
+35
+00:01:24,000 --> 00:01:26,005
+to run the following commands.
+
+36
+00:01:26,005 --> 00:01:29,001
+First, I like to put my projects on the desktop
+
+37
+00:01:29,001 --> 00:01:31,004
+but you can put them wherever you want.
+
+38
+00:01:31,004 --> 00:01:33,004
+Then you'll use an npx
+
+39
+00:01:33,004 --> 00:01:36,003
+and then use the Create React App command
+
+40
+00:01:36,003 --> 00:01:39,000
+and give your application a name.
+
+
+41
+00:01:39,000 --> 00:01:41,003
+I'm going to call mine reactinterface
+
+42
+00:01:41,003 --> 00:01:44,002
+then we'll switch over to the reactinterface folder
+
+43
+00:01:44,002 --> 00:01:46,000
+and run npm start.
+
+44
+00:01:46,000 --> 00:01:48,007
+Let's go ahead and try that in a terminal.
+
+45
+00:01:48,007 --> 00:01:49,009
+I'm using a hyper right here
+
+46
+00:01:49,009 --> 00:01:53,001
+but you can use the macro S terminal, Git Bash,
+
+47
+00:01:53,001 --> 00:01:55,002
+or any other tool of your liking.
+
+48
+00:01:55,002 --> 00:02:00,000
+So I'm going to issue a cd~/Desktop,
+
+49
+00:02:00,000 --> 00:02:02,001
+that will put my terminal in the desktop
+
+50
+00:02:02,001 --> 00:02:07,000
+and then I'll use the npx create-react-app
+
+51
+00:02:07,000 --> 00:02:10,005
+and create the reactinterface project.
+
+
+52
+00:02:10,005 --> 00:02:11,009
+I'm going to hit return,
+
+53
+00:02:11,009 --> 00:02:16,005
+wait for the installation to complete.
+
+54
+00:02:16,005 --> 00:02:17,003
+Once that's done,
+
+55
+00:02:17,003 --> 00:02:20,003
+you can see the different commands that you can use.
+
+56
+00:02:20,003 --> 00:02:21,005
+If you see yarn,
+
+57
+00:02:21,005 --> 00:02:25,005
+that means that you have another application called yarn.
+
+58
+00:02:25,005 --> 00:02:26,007
+You can look for that,
+
+59
+00:02:26,007 --> 00:02:29,005
+or if you have npm, you can use npm,
+
+60
+00:02:29,005 --> 00:02:31,007
+but you can use any of these commands that you want.
+
+61
+00:02:31,007 --> 00:02:35,005
+I'm going to cd into the reactinterface folder,
+
+62
+00:02:35,005 --> 00:02:39,000
+and once in there I can run the npm start command,
+
+63
+00:02:39,000 --> 00:02:41,000
+or you can run yarn start.
+
+
+64
+00:02:41,000 --> 00:02:44,005
+Now, if you do have something running on the default port,
+
+65
+00:02:44,005 --> 00:02:46,007
+like I do, it's going to ask you this,
+
+66
+00:02:46,007 --> 00:02:49,003
+just go ahead and say yes,
+
+67
+00:02:49,003 --> 00:02:51,007
+and it'll start your browser
+
+68
+00:02:51,007 --> 00:02:58,000
+with the sample application showing.
+

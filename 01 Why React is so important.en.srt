@@ -1,0 +1,101 @@
+1
+00:00:00,004 --> 00:00:01,006
+- [Ray] There's two reasons why,
+
+2
+00:00:01,006 --> 00:00:05,000
+if I had to learn only one JavaScript framework,
+
+3
+00:00:05,000 --> 00:00:06,006
+it would be React.
+
+4
+00:00:06,006 --> 00:00:08,001
+Now first, the speed at which
+
+5
+00:00:08,001 --> 00:00:11,001
+it's dominated the industry is amazing.
+
+6
+00:00:11,001 --> 00:00:12,008
+If I was looking for a job today
+
+7
+00:00:12,008 --> 00:00:15,005
+as a front end or full stack developer,
+
+8
+00:00:15,005 --> 00:00:19,000
+chances are it's on the list of preferred skills.
+
+9
+00:00:19,000 --> 00:00:21,004
+But the second reason is more important.
+
+10
+00:00:21,004 --> 00:00:24,000
+It's a lot of fun to code in.
+
+11
+00:00:24,000 --> 00:00:26,000
+React makes things that are annoying,
+
+12
+00:00:26,000 --> 00:00:29,000
+like managing the virtual DOM, trivial.
+
+13
+00:00:29,000 --> 00:00:30,003
+Hey there, this is Ray Villalobos,
+
+14
+00:00:30,003 --> 00:00:32,006
+senior staff instructor at LinkedIn,
+
+15
+00:00:32,006 --> 00:00:36,000
+and I created this course as a quick introduction to React
+
+16
+00:00:36,000 --> 00:00:39,004
+that will teach you how it works in a practical way.
+
+
+17
+00:00:39,004 --> 00:00:41,002
+I'm using React Hooks in this course,
+
+18
+00:00:41,002 --> 00:00:44,002
+the most modern way of working with the library.
+
+19
+00:00:44,002 --> 00:00:46,005
+I'm assuming you know the basics of HTML,
+
+20
+00:00:46,005 --> 00:00:49,007
+CSS, and JavaScript, and that's about it.
+
+21
+00:00:49,007 --> 00:00:52,000
+Now, we're going to build a simple application
+
+22
+00:00:52,000 --> 00:00:54,001
+that will get you some experience with React
+
+23
+00:00:54,001 --> 00:00:56,004
+and show you why it's worth your time.
+
+24
+00:00:56,004 --> 00:00:59,000
+So if you're ready to build an interactive project,
+
+25
+00:00:59,000 --> 00:01:01,000
+let's get started.
+

@@ -1,0 +1,681 @@
+1
+00:00:00,003 --> 00:00:01,003
+- [Instructor] The create-react-app
+
+2
+00:00:01,003 --> 00:00:03,003
+makes it easier to create a project
+
+3
+00:00:03,003 --> 00:00:05,006
+by installing a lot of modules.
+
+4
+00:00:05,006 --> 00:00:08,003
+So let's go over what we got when we installed the project
+
+5
+00:00:08,003 --> 00:00:10,003
+with create react app.
+
+6
+00:00:10,003 --> 00:00:11,008
+I'm going to go over to the desktop
+
+7
+00:00:11,008 --> 00:00:14,005
+and look at the folder that was installed
+
+8
+00:00:14,005 --> 00:00:16,007
+and I'm going to drag it onto my code editor
+
+9
+00:00:16,007 --> 00:00:18,004
+which is Visual Studio Code.
+
+10
+00:00:18,004 --> 00:00:19,003
+Now a couple of notes.
+
+11
+00:00:19,003 --> 00:00:21,006
+If you're comfortable with react installations,
+
+12
+00:00:21,006 --> 00:00:23,003
+you might want to skip this video.
+
+13
+00:00:23,003 --> 00:00:26,007
+Also, if you're working with our GitHub repo, like I am,
+
+14
+00:00:26,007 --> 00:00:29,004
+you'll see some additional files and folders
+
+15
+00:00:29,004 --> 00:00:34,000
+like the contributing license, notice, GitHub folder,
+
+16
+00:00:34,000 --> 00:00:37,006
+and a different read me file than the default installation.
+
+
+17
+00:00:37,006 --> 00:00:40,008
+Those are required for us to add the projects on GitHub
+
+18
+00:00:40,008 --> 00:00:43,002
+but the rest is the default installation.
+
+19
+00:00:43,002 --> 00:00:47,000
+Now let's go ahead and run the npm start
+
+20
+00:00:47,000 --> 00:00:48,002
+or the yarn start command.
+
+21
+00:00:48,002 --> 00:00:50,001
+So I'm going to pull up a terminal
+
+22
+00:00:50,001 --> 00:00:53,002
+and go to the terminal menu and select new terminal
+
+23
+00:00:53,002 --> 00:00:58,000
+and then type in the npm start or yarn start command.
+
+24
+00:00:58,000 --> 00:01:01,000
+If it does give you this message just go ahead and say, yes.
+
+25
+00:01:01,000 --> 00:01:07,005
+This will startup our application in a browser.
+
+26
+00:01:07,005 --> 00:01:09,000
+Let's talk about some of the modules
+
+27
+00:01:09,000 --> 00:01:11,008
+that get installed when you use create react app.
+
+
+28
+00:01:11,008 --> 00:01:14,005
+First Webpack is a JavaScript bundler.
+
+29
+00:01:14,005 --> 00:01:18,002
+Its main job is to manage how our application is assembled
+
+30
+00:01:18,002 --> 00:01:20,003
+and the loading of your different modules
+
+31
+00:01:20,003 --> 00:01:22,001
+into an application.
+
+32
+00:01:22,001 --> 00:01:24,005
+Babel is a JavaScript compiler,
+
+33
+00:01:24,005 --> 00:01:28,000
+it lets you write code with the latest JavaScript features
+
+34
+00:01:28,000 --> 00:01:29,002
+and it will convert that,
+
+35
+00:01:29,002 --> 00:01:31,008
+so that it works with older browsers.
+
+36
+00:01:31,008 --> 00:01:34,001
+Est Lint is a JavaScript linter
+
+37
+00:01:34,001 --> 00:01:36,007
+which analyzes your code against certain rules
+
+38
+00:01:36,007 --> 00:01:38,003
+and helps you fix them.
+
+39
+00:01:38,003 --> 00:01:40,002
+You might need to have an extension installed
+
+40
+00:01:40,002 --> 00:01:42,000
+on your editor to use this,
+
+41
+00:01:42,000 --> 00:01:45,001
+and you can find one for Visuals Studio Code
+
+42
+00:01:45,001 --> 00:01:47,004
+at the links right here.
+
+
+43
+00:01:47,004 --> 00:01:50,001
+You also get Jest, a testing framework.
+
+44
+00:01:50,001 --> 00:01:52,009
+And if you want to run tests on your JavaScript code,
+
+45
+00:01:52,009 --> 00:01:54,001
+you can use that.
+
+46
+00:01:54,001 --> 00:01:56,004
+Finally, you'll also get something called Web Vitals
+
+47
+00:01:56,004 --> 00:02:00,004
+which is a performance monitoring tool for your site
+
+48
+00:02:00,004 --> 00:02:07,002
+measuring performance, accessibility, and best practices.
+
+49
+00:02:07,002 --> 00:02:09,005
+Now you can see the modules that I was talking about
+
+50
+00:02:09,005 --> 00:02:10,007
+installed right here.
+
+51
+00:02:10,007 --> 00:02:13,009
+So for example you can see jest install right there,
+
+52
+00:02:13,009 --> 00:02:16,007
+as well as the testing version
+
+53
+00:02:16,007 --> 00:02:19,005
+for the react library of jest
+
+54
+00:02:19,005 --> 00:02:22,003
+and some of the other tools that we talked about
+
+55
+00:02:22,003 --> 00:02:24,007
+into the package.json file.
+
+
+56
+00:02:24,007 --> 00:02:27,007
+Now the package.json is the file that Node.js creates
+
+57
+00:02:27,007 --> 00:02:29,001
+to manage my project.
+
+58
+00:02:29,001 --> 00:02:33,001
+You can also see a browser list section down here.
+
+59
+00:02:33,001 --> 00:02:35,001
+This helps our modules like Webpack
+
+60
+00:02:35,001 --> 00:02:38,003
+note which browsers you're targeting for the build.
+
+61
+00:02:38,003 --> 00:02:40,001
+You can see that we're targeting browsers
+
+62
+00:02:40,001 --> 00:02:42,001
+that are not opera mini.
+
+63
+00:02:42,001 --> 00:02:45,003
+The getignore file is a document that helps you control
+
+64
+00:02:45,003 --> 00:02:48,000
+which files are tracked by GitHub.
+
+65
+00:02:48,000 --> 00:02:50,001
+So for example, the node modules folder
+
+66
+00:02:50,001 --> 00:02:53,003
+is not going to be copied to your GitHub repo.
+
+67
+00:02:53,003 --> 00:02:56,001
+Now let's see how this project is put together.
+
+
+68
+00:02:56,001 --> 00:02:58,007
+The files are in two main folders.
+
+69
+00:02:58,007 --> 00:03:02,000
+The public folder has files that Webpack will manage.
+
+70
+00:03:02,000 --> 00:03:03,005
+They will also be moved to the server
+
+71
+00:03:03,005 --> 00:03:05,005
+when our project is deployed.
+
+72
+00:03:05,005 --> 00:03:09,001
+You can see that there are some icons as well as logos here
+
+73
+00:03:09,001 --> 00:03:13,005
+that show up when we preview our application.
+
+74
+00:03:13,005 --> 00:03:16,000
+The robots.txt file gives web crawlers
+
+75
+00:03:16,000 --> 00:03:18,000
+information about your sites.
+
+76
+00:03:18,000 --> 00:03:20,007
+Web crawlers are applications that search engines
+
+77
+00:03:20,007 --> 00:03:24,005
+like Google use to get more information about your websites.
+
+78
+00:03:24,005 --> 00:03:28,003
+The index.html file is the entry point for browsers.
+
+
+79
+00:03:28,003 --> 00:03:30,005
+You can modify this file if you want,
+
+80
+00:03:30,005 --> 00:03:32,003
+but Webpack will use this file
+
+81
+00:03:32,003 --> 00:03:35,005
+to inject the JavaScript code you write
+
+82
+00:03:35,005 --> 00:03:39,001
+as well as react code and other CSS.
+
+83
+00:03:39,001 --> 00:03:40,007
+The single most important section
+
+84
+00:03:40,007 --> 00:03:43,007
+is this div with the id of root.
+
+85
+00:03:43,007 --> 00:03:46,003
+This is where your application will be loaded.
+
+86
+00:03:46,003 --> 00:03:49,001
+Now let's look at some of the react files.
+
+87
+00:03:49,001 --> 00:03:52,003
+The other main folder is this source folder.
+
+88
+00:03:52,003 --> 00:03:56,001
+And here you'll find the index.js file.
+
+89
+00:03:56,001 --> 00:03:59,003
+This is your entry point for the JavaScript application.
+
+
+90
+00:03:59,003 --> 00:04:01,003
+Now this file is going to import a lot of code
+
+91
+00:04:01,003 --> 00:04:05,001
+from different libraries like React and React-dom.
+
+92
+00:04:05,001 --> 00:04:08,005
+React is the main library for working with react
+
+93
+00:04:08,005 --> 00:04:10,001
+while React-dom manages
+
+94
+00:04:10,001 --> 00:04:13,000
+how the document object model works within react.
+
+95
+00:04:13,000 --> 00:04:15,001
+Now these are being loaded by Node.js
+
+96
+00:04:15,001 --> 00:04:17,009
+using what's listed as dependencies
+
+97
+00:04:17,009 --> 00:04:19,007
+in your package.json file.
+
+98
+00:04:19,007 --> 00:04:22,000
+If you're looking for where these files are coming from,
+
+99
+00:04:22,000 --> 00:04:25,009
+they're coming from the node_modules folder.
+
+100
+00:04:25,009 --> 00:04:27,001
+Since we're using Webpack,
+
+101
+00:04:27,001 --> 00:04:30,000
+you can include your CSS as an import
+
+102
+00:04:30,000 --> 00:04:32,002
+with a command like import right here.
+
+
+103
+00:04:32,002 --> 00:04:35,006
+Now that's instead of using a link tag in your HTML
+
+104
+00:04:35,006 --> 00:04:38,000
+this is going to let you have a CSS file
+
+105
+00:04:38,000 --> 00:04:39,009
+for your entire application.
+
+106
+00:04:39,009 --> 00:04:42,005
+We're also importing a configuration file
+
+107
+00:04:42,005 --> 00:04:44,006
+for web report vitals
+
+108
+00:04:44,006 --> 00:04:47,002
+and this is the module that we talked about earlier.
+
+109
+00:04:47,002 --> 00:04:49,007
+Now we're calling that function right here at the bottom.
+
+110
+00:04:49,007 --> 00:04:54,003
+Another import we're doing is for a react module called App.
+
+111
+00:04:54,003 --> 00:04:55,009
+Although you don't see the extension,
+
+112
+00:04:55,009 --> 00:04:58,009
+this is loading the file called app.js.
+
+113
+00:04:58,009 --> 00:05:00,001
+You getignore extensions
+
+114
+00:05:00,001 --> 00:05:02,006
+when you load other JavaScript files.
+
+
+115
+00:05:02,006 --> 00:05:06,002
+Now we're using the react library inside our render command.
+
+116
+00:05:06,002 --> 00:05:08,006
+You can see some code to put react in StrictMode
+
+117
+00:05:08,006 --> 00:05:10,000
+during development.
+
+118
+00:05:10,000 --> 00:05:11,005
+StrictMode will complain
+
+119
+00:05:11,005 --> 00:05:14,001
+if you write potentially dangerous code.
+
+120
+00:05:14,001 --> 00:05:15,002
+The render command
+
+121
+00:05:15,002 --> 00:05:18,009
+then loads up the app component as a module
+
+122
+00:05:18,009 --> 00:05:22,007
+and looks for an item with the Id of root in your index
+
+123
+00:05:22,007 --> 00:05:24,001
+that html file
+
+124
+00:05:24,001 --> 00:05:26,009
+and that's where your application will be loaded.
+
+125
+00:05:26,009 --> 00:05:29,007
+Now let's take a look at App.js next.
+
+126
+00:05:29,007 --> 00:05:33,003
+There's a load command here for a file called logo.svg,
+
+127
+00:05:33,003 --> 00:05:37,006
+which is in the same folder you can see it right here.
+
+
+128
+00:05:37,006 --> 00:05:40,002
+You can include images and logos in here
+
+129
+00:05:40,002 --> 00:05:42,002
+but they will be managed by Webpack
+
+130
+00:05:42,002 --> 00:05:45,005
+which can be useful in automating things like compression
+
+131
+00:05:45,005 --> 00:05:48,000
+but it means that they won't be in the final folder
+
+132
+00:05:48,000 --> 00:05:49,007
+that is exposed to the web.
+
+133
+00:05:49,007 --> 00:05:51,006
+We're also loading a test for this document
+
+134
+00:05:51,006 --> 00:05:55,002
+that's in a file called App.test.js.
+
+135
+00:05:55,002 --> 00:05:57,002
+We installed the jest testing library
+
+136
+00:05:57,002 --> 00:06:00,003
+and this code shows some sample test code.
+
+137
+00:06:00,003 --> 00:06:04,001
+This are related file called setupTests.js down here.
+
+138
+00:06:04,001 --> 00:06:08,000
+In the same way, we're loading an App.css file right here.
+
+
+139
+00:06:08,000 --> 00:06:11,001
+Then we have a function that defines our document.
+
+140
+00:06:11,001 --> 00:06:12,002
+I should mention that,
+
+141
+00:06:12,002 --> 00:06:15,005
+although the code follows what looks to be JavaScript,
+
+142
+00:06:15,005 --> 00:06:18,001
+it's written in a language called JSX
+
+143
+00:06:18,001 --> 00:06:22,002
+which is a combination of JavaScript and HTML.
+
+144
+00:06:22,002 --> 00:06:26,000
+So you can see that we use a return statement right here
+
+145
+00:06:26,000 --> 00:06:28,006
+inside the function called App
+
+146
+00:06:28,006 --> 00:06:30,002
+and then we export default
+
+147
+00:06:30,002 --> 00:06:33,002
+just like we would for a normal JavaScript project.
+
+148
+00:06:33,002 --> 00:06:35,002
+So that part looks like JavaScript.
+
+149
+00:06:35,002 --> 00:06:38,006
+And then all the code right here looks like regular HTML
+
+150
+00:06:38,006 --> 00:06:40,006
+but do notice that there are some changes.
+
+
+151
+00:06:40,006 --> 00:06:44,007
+So for example, we can import a variable right here
+
+152
+00:06:44,007 --> 00:06:47,006
+which is this logo that we imported earlier.
+
+153
+00:06:47,006 --> 00:06:51,002
+And whenever we use the keyword class in HTML,
+
+154
+00:06:51,002 --> 00:06:54,002
+we have to modify that to className
+
+155
+00:06:54,002 --> 00:06:57,006
+because class means something in JavaScript.
+
+156
+00:06:57,006 --> 00:06:59,006
+We can't use that in JSX.
+
+157
+00:06:59,006 --> 00:07:02,005
+So we have to always remember to use className
+
+158
+00:07:02,005 --> 00:07:03,007
+instead of class
+
+159
+00:07:03,007 --> 00:07:05,007
+and there are a lot of other places
+
+160
+00:07:05,007 --> 00:07:07,005
+where you're going to have to remember
+
+161
+00:07:07,005 --> 00:07:11,007
+to use the JSX version of the HTML.
+
+162
+00:07:11,007 --> 00:07:13,007
+Also notice that standalone tags
+
+163
+00:07:13,007 --> 00:07:14,007
+like the image tag,
+
+164
+00:07:14,007 --> 00:07:18,006
+have to have this closing slash right here.
+
+
+165
+00:07:18,006 --> 00:07:20,006
+So that's how our application loads.
+
+166
+00:07:20,006 --> 00:07:22,002
+Now there's a lot going on here
+
+167
+00:07:22,002 --> 00:07:24,000
+but hopefully everything makes sense.
+
